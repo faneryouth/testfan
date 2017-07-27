@@ -1,4 +1,4 @@
-package cloud.simple.service.model;
+package cloud.simple.model;
 
 public class User {
 

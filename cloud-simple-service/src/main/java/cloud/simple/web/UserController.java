@@ -1,4 +1,4 @@
-package cloud.simple.service.web;
+package cloud.simple.web;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import cloud.simple.service.domain.UserService;
-import cloud.simple.service.model.User;
+import cloud.simple.model.User;
 
 @RestController
 public class UserController {
