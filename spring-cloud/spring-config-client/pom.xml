@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.chry</groupId>
-    <artifactId>springcloud.helloworld.eureka.client</artifactId>
+    <artifactId>Springcloud.helloworld.config.client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud.helloworld.eureka.client</name>
+    <name>Springcloud.helloworld.config.client</name>
     <packaging>jar</packaging>
-    <description>Demo Spring Boot Client</description>
+    <description>Demo Spring Config Client</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -30,7 +30,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+		<dependency>
+        	<groupId>org.springframework.cloud</groupId>
+        	<artifactId>spring-cloud-starter-config</artifactId>
+    	</dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
