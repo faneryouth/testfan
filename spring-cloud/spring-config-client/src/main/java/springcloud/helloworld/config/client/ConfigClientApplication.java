@@ -16,7 +16,7 @@ public class ConfigClientApplication {
 
     @Value("${hello}")
     String hello;
-    @RequestMapping(value = "/hi")
+    @RequestMapping(value = "/hello")
     public String hi(){
         return hello;
     }
